@@ -1,11 +1,12 @@
-import './PokemonPicture.css'
+import "./PokemonPicture.css";
 
-function PokemonPicture() {
+function PokemonPicture(props) {
+  const name = "https://img.pokemondb.net/artwork/large/" + props.name.toLowerCase() + ".jpg";
   return (
-  <div>
-    <img src="https://img.pokemondb.net/artwork/large/slowpoke.jpg" />
-  </div>
-  )
-}
+    <div>
+      <img src={name} alt="Pokémon" />
+    </div>
+  );
+};
 
 export default PokemonPicture;

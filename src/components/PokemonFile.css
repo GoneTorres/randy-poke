@@ -1,0 +1,18 @@
+.pokemonFile {
+  width: 100%;
+  max-width: 400px;
+  display: block;
+  background-color: azure;
+  margin: 0 auto;
+}
+.pic {
+  margin: 0 auto;
+}
+
+.type1,
+.type2 {
+  border: 1px solid red;
+  border-radius: 5px;
+  width: 100px;
+  text-align: center;
+}
